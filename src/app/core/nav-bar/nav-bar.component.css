@@ -1,0 +1,19 @@
+nav {
+    background-color: #1565c0;
+    height: 80px;
+}
+
+i {
+    color: white;
+}
+
+span {
+    color: white;
+    padding-left: 5px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}

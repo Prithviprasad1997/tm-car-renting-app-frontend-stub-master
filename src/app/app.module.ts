@@ -4,10 +4,18 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NavBarComponent } from './core/nav-bar/nav-bar.component';
+import { SignInComponent } from './shared/sign-in/sign-in.component';
+import { HomeComponent } from './home/home/home.component';
+import { FootBarComponent } from './core/foot-bar/foot-bar.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavBarComponent,
+    SignInComponent,
+    HomeComponent,
+    FootBarComponent
   ],
   imports: [
     BrowserModule,

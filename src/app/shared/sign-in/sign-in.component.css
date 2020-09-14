@@ -1,0 +1,9 @@
+.navbar {
+    float: right;
+    margin-top: 10px;
+}
+
+button {
+    background-color: #1565c0;
+    border: 0px;
+}
