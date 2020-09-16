@@ -8,6 +8,7 @@ import { NavBarComponent } from './core/nav-bar/nav-bar.component';
 import { SignInComponent } from './shared/sign-in/sign-in.component';
 import { HomeComponent } from './home/home/home.component';
 import { FootBarComponent } from './core/foot-bar/foot-bar.component';
+import { SigninModalComponent } from './shared/signin-modal/signin-modal.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { FootBarComponent } from './core/foot-bar/foot-bar.component';
     NavBarComponent,
     SignInComponent,
     HomeComponent,
-    FootBarComponent
+    FootBarComponent,
+    SigninModalComponent
   ],
   imports: [
     BrowserModule,
